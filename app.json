@@ -1,8 +1,8 @@
 {
-    "name": "Ubuntu-Vps without cc using heroku",
+    "name": "Ubuntu Desktop noVNC HEROKU FREE VPS",
     "description": "HEROKU VPS",
-    "repository": "https://github.com/Mr-Ghost001/Heroku-Vps",
-    "logo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F29985a98-ubuntu-logo32.png&imgrefurl=https%3A%2F%2Fdesign.ubuntu.com%2Fbrand%2Fubuntu-logo%2F&tbnid=g2LZLHpVPJMdiM&vet=12ahUKEwjI68Dp2sP4AhUqi9gFHQxpCXAQMygAegUIARDZAQ..i&docid=Qce3Y1oruAAVjM&w=200&h=200&q=ubuntu%20vps%20logo&ved=2ahUKEwjI68Dp2sP4AhUqi9gFHQxpCXAQMygAegUIARDZAQ",
+    "repository": "https://github.com/developeranaz/Ubuntu-Desktop-noVNC-Heroku-VPS",
+    "logo": "https://avatars.githubusercontent.com/u/71500526?v=4",
     "keywords": ["VPS", "HEROKU", "Free", "Firefox", "novnc", "VNC", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],
   
     "website": "",

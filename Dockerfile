@@ -1,33 +1,9 @@
-FROM ubuntu:20.10
+FROM ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && \
-    apt install dbus-x11 -y  && \
-    apt install sudo -y  && \ 
-    apt install bash -y  && \ 
-    apt install net-tools -y  && \
-    apt install novnc -y  && \ 
-    apt install x11vnc -y  && \ 
-    apt install xvfb -y  && \
-    apt install supervisor -y  && \ 
-    apt install xfce4 -y  && \
-    apt install gnome-shell -y  && \
-    apt install ubuntu-gnome-desktop -y  && \
-    apt install gnome-session -y  && \ 
-    apt install gdm3 -y  && \ 
-    apt install tasksel -y  && \
-    apt install ssh  -y  && \
-    apt install terminator -y  && \
-    apt install git -y  && \
-    apt install nano -y  && \
-    apt install curl -y  && \
-    apt install wget -y  && \ 
-    apt install zip -y  && \
-    apt install unzip -y  && \
-    apt install falkon -y  && \
-    apt-get autoclean -y  && \
-    apt-get autoremove
-
+RUN apt-get update 
+RUN apt install curl -y
+RUN curl 'https://raw.githubusercontent.com/dev-extended/https-github.com-developeranaz-Ubuntu-Desktop-noVNC-Heroku-VPS-tree-ex/main/install.sh' |bash
 COPY novnc.zip /novnc.zip
 COPY . /system
 
